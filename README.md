@@ -48,4 +48,4 @@ OmriyxScript is licensed under the [MIT License](https://github.com/OmriYahav/Om
 
 ## 📧 Contact
 
-If you have any questions or suggestions, feel free to reach out to me at omri.yahav@gmail.com.
+If you have any questions or suggestions, feel free to reach out to me at omriyx@gmail.com.
