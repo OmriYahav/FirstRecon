@@ -1,6 +1,6 @@
 # FirstRecon
 
-# 🌐Geolocation and Port Scanning Tool 🛡️
+# 🌐Geolocation and Port Scanning Tools 🛡️
 
 <p align="center">
 <img src="https://img.shields.io/badge/version-v1.0-blue" alt="Version">
