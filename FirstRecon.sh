@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Check if lolcat Tool is installed
+# Check if lolcat Tool is installed.
 if command -v lolcat > /dev/null; then
   echo "lolcat is installed" | lolcat
 else
     sudo apt-get -y install lolcat
     exit 1
 fi
-# Check if figlet Tool is installed
+# Check if figlet Tool is installed.
 if command -v figlet > /dev/null; then
   echo "figlet is installed" | lolcat
 else
@@ -15,7 +15,7 @@ else
     exit 2
 fi
 
-# Check if nmap Tool is installed
+# Check if nmap Tool is installed.
 if command -v nmap > /dev/null; then
   echo "nmap  is installed" | lolcat
 else
@@ -23,7 +23,7 @@ else
     exit 3
 fi
 
-# Check if JQ Tool is installed
+# Check if JQ Tool is installed.
 if [[ $(which jq) == "/usr/bin/jq" ]]; then
   echo "JQ is installed" | lolcat
 else
@@ -38,9 +38,9 @@ echo ""
 figlet "Omriyx" | lolcat
 echo "[YOUR ARE USING Omriyx.sh] - (v1.0) CODED BY Omri Yahav 'Omriyx' WITH ❤  FOR  Educational Purposes only!" | lolcat
 
-#check if the user is connected to the internet
+#check if the user is connected to the internet.
 tput bold;echo "CHECKING IF YOU ARE CONNECTED TO THE INTERNET!" | lolcat
-# Check connection
+# Check connection.
 wget -q --spider https://google.com
 if [ $? -ne 0 ];then
     echo "++++ CONNECT TO THE INTERNET BEFORE RUNNING Omriyx.sh!" | lolcat
@@ -51,7 +51,7 @@ tput bold;echo "++++ CONNECTION FOUND, LET'S GO!" | lolcat
 #Read User IP address Or Domain name :
 read -p "Please Enter IP address or Domain name:" IpOrDomain
 
-# If user doesn't enter anything
+# If user doesn't enter anything.
 if [[ -z $IpOrDomain ]]; then
     echo "Input Cant Be Empty , Please Enter Ip Address Or Domain Name" | lolcat
     echo  "ExitError No.6" | lolcat
