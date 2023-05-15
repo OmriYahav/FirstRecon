@@ -60,14 +60,14 @@ if [[ -z $IpOrDomain ]]; then
  echo "Analyze The Input"
 fi
 
-#Checks that the given IP argument is not equal to: '127.0.0.1'
+#Checks that the given IP argument is not equal to: '127.0.0.1'.
 if [[ $IpOrDomain  == "127.0.0.1" ]]; then
  echo "127.0.0.1 is not valid , try public ip" | lolcat
  echo "ExitError No.7" | lolcat
  exit 7
 fi
 
-# Regular expression for validating IPv4 addresses & Domain names
+# Regular expression for validating IPv4 addresses & Domain names.
 ip_regex="^(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$"
 
 domain_regex="^([a-zA-Z0-9][a-zA-Z0-9-]{0,61}[a-zA-Z0-9]\.)+[a-zA-Z]{2,}$"
