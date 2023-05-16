@@ -33,7 +33,7 @@ bash Omriyx.sh
 
 ## 📄 License
 
-OmriyxScript is licensed under the [MIT License](https://github.com/OmriYahav/OmriyxScript/blob/main/LICENSE).
+Omriyx Script is licensed under the [MIT License](https://github.com/OmriYahav/OmriyxScript/blob/main/LICENSE).
 
 ## 🙏 Acknowledgements
 
